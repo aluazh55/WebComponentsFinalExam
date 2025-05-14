@@ -1,0 +1,233 @@
+2025-03-15 13:46:21.301 +05:00 [INF] User profile is available. Using 'C:\Users\zhark\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 13:46:21.558 +05:00 [INF] Now listening on: http://localhost:5069
+2025-03-15 13:46:21.620 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 13:46:21.621 +05:00 [INF] Hosting environment: Development
+2025-03-15 13:46:21.622 +05:00 [INF] Content root path: D:\WebProjects\Villa.RealEstate\Villa.RealEstate
+2025-03-15 13:46:24.702 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/ - null null
+2025-03-15 13:46:24.865 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:46:24.869 +05:00 [INF] Executing endpoint 'Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate)'
+2025-03-15 13:46:24.992 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync() on controller Villa.RealEstate.Controllers.HomeController (Villa.RealEstate).
+2025-03-15 13:46:25.448 +05:00 [INF] Logging Information Message
+2025-03-15 13:46:25.448 +05:00 [WRN] Logging Warning Message
+2025-03-15 13:46:25.449 +05:00 [ERR] Logging Error Message
+2025-03-15 13:46:25.450 +05:00 [FTL] Logging Critical Message
+2025-03-15 13:46:27.271 +05:00 [INF] Executed DbCommand (292ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 13:46:27.382 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-15 13:46:27.601 +05:00 [INF] Executed ViewResult - view Index executed in 229.4385ms.
+2025-03-15 13:46:27.607 +05:00 [INF] Executed action Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate) in 2611.6145ms
+2025-03-15 13:46:27.609 +05:00 [INF] Executed endpoint 'Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate)'
+2025-03-15 13:46:27.609 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - null null
+2025-03-15 13:46:27.628 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap-icons/bootstrap-icons.css - null null
+2025-03-15 13:46:27.628 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/glightbox/css/glightbox.min.css - null null
+2025-03-15 13:46:27.671 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:46:27.628 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/aos/aos.css - null null
+2025-03-15 13:46:27.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/swiper/swiper-bundle.min.css - null null
+2025-03-15 13:46:27.686 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - 404 0 null 77.8039ms
+2025-03-15 13:46:27.682 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/ - 200 null text/html; charset=utf-8 2980.027ms
+2025-03-15 13:46:27.702 +05:00 [INF] The file /assets/vendor/bootstrap-icons/bootstrap-icons.css was not modified
+2025-03-15 13:46:27.702 +05:00 [INF] The file /assets/vendor/glightbox/css/glightbox.min.css was not modified
+2025-03-15 13:46:27.708 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap/css/bootstrap.min.css - null null
+2025-03-15 13:46:27.705 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5069/https://fonts.googleapis.com/css2, Response status code: 404
+2025-03-15 13:46:27.709 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap-icons/bootstrap-icons.css - 304 null text/css 80.674ms
+2025-03-15 13:46:27.709 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/glightbox/css/glightbox.min.css - 304 null text/css 80.674ms
+2025-03-15 13:46:27.712 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/css/main.css - null null
+2025-03-15 13:46:27.714 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap/js/bootstrap.bundle.min.js - null null
+2025-03-15 13:46:27.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/illustration-1.webp - null null
+2025-03-15 13:46:27.718 +05:00 [INF] The file /assets/css/main.css was not modified
+2025-03-15 13:46:27.719 +05:00 [INF] The file /assets/vendor/bootstrap/js/bootstrap.bundle.min.js was not modified
+2025-03-15 13:46:27.721 +05:00 [INF] The file /assets/img/illustration-1.webp was not modified
+2025-03-15 13:46:27.722 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/css/main.css - 304 null text/css 10.3247ms
+2025-03-15 13:46:27.724 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap/js/bootstrap.bundle.min.js - 304 null text/javascript 10.2111ms
+2025-03-15 13:46:27.726 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/illustration-1.webp - 304 null image/webp 9.5342ms
+2025-03-15 13:46:27.702 +05:00 [INF] The file /assets/vendor/aos/aos.css was not modified
+2025-03-15 13:46:27.733 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/avatar-1.webp - null null
+2025-03-15 13:46:27.735 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/avatar-2.webp - null null
+2025-03-15 13:46:27.735 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/aos/aos.css - 304 null text/css 107.3458ms
+2025-03-15 13:46:27.737 +05:00 [INF] The file /assets/img/avatar-1.webp was not modified
+2025-03-15 13:46:27.739 +05:00 [INF] The file /assets/img/avatar-2.webp was not modified
+2025-03-15 13:46:27.742 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/avatar-4.webp - null null
+2025-03-15 13:46:27.743 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/avatar-1.webp - 304 null image/webp 9.5693ms
+2025-03-15 13:46:27.744 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/avatar-2.webp - 304 null image/webp 8.6427ms
+2025-03-15 13:46:27.746 +05:00 [INF] The file /assets/img/avatar-4.webp was not modified
+2025-03-15 13:46:27.748 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/aos/aos.js - null null
+2025-03-15 13:46:27.750 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/php-email-form/validate.js - null null
+2025-03-15 13:46:27.751 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/avatar-4.webp - 304 null image/webp 9.4776ms
+2025-03-15 13:46:27.753 +05:00 [INF] The file /assets/vendor/aos/aos.js was not modified
+2025-03-15 13:46:27.755 +05:00 [INF] The file /assets/vendor/php-email-form/validate.js was not modified
+2025-03-15 13:46:27.756 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/glightbox/js/glightbox.min.js - null null
+2025-03-15 13:46:27.757 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/aos/aos.js - 304 null text/javascript 9.2371ms
+2025-03-15 13:46:27.758 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/php-email-form/validate.js - 304 null text/javascript 8.2782ms
+2025-03-15 13:46:27.761 +05:00 [INF] The file /assets/vendor/glightbox/js/glightbox.min.js was not modified
+2025-03-15 13:46:27.763 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/purecounter/purecounter_vanilla.js - null null
+2025-03-15 13:46:27.765 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/swiper/swiper-bundle.min.js - null null
+2025-03-15 13:46:27.766 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/glightbox/js/glightbox.min.js - 304 null text/javascript 9.238ms
+2025-03-15 13:46:27.767 +05:00 [INF] The file /assets/vendor/purecounter/purecounter_vanilla.js was not modified
+2025-03-15 13:46:27.769 +05:00 [INF] The file /assets/vendor/swiper/swiper-bundle.min.js was not modified
+2025-03-15 13:46:27.771 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/jquery-1.12.4.min.js - null null
+2025-03-15 13:46:27.771 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/purecounter/purecounter_vanilla.js - 304 null text/javascript 8.3925ms
+2025-03-15 13:46:27.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/swiper/swiper-bundle.min.js - 304 null text/javascript 6.9801ms
+2025-03-15 13:46:27.702 +05:00 [INF] The file /assets/vendor/swiper/swiper-bundle.min.css was not modified
+2025-03-15 13:46:27.711 +05:00 [INF] The file /assets/vendor/bootstrap/css/bootstrap.min.css was not modified
+2025-03-15 13:46:27.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/js/main.js - null null
+2025-03-15 13:46:27.780 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/swiper/swiper-bundle.min.css - 304 null text/css 151.1764ms
+2025-03-15 13:46:27.783 +05:00 [INF] The file /assets/js/main.js was not modified
+2025-03-15 13:46:27.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap/css/bootstrap.min.css - 304 null text/css 72.7859ms
+2025-03-15 13:46:27.787 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/js/main.js - 304 null text/javascript 7.3629ms
+2025-03-15 13:46:27.786 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/about-5.webp - null null
+2025-03-15 13:46:27.790 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/avatar-5.webp - null null
+2025-03-15 13:46:27.835 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/about-2.webp - null null
+2025-03-15 13:46:27.835 +05:00 [INF] Sending file. Request path: '/assets/vendor/jquery-1.12.4.min.js'. Physical path: 'D:\WebProjects\Villa.RealEstate\Villa.RealEstate\wwwroot\assets\vendor\jquery-1.12.4.min.js'
+2025-03-15 13:46:27.837 +05:00 [INF] The file /assets/img/about-5.webp was not modified
+2025-03-15 13:46:27.842 +05:00 [INF] The file /assets/img/about-2.webp was not modified
+2025-03-15 13:46:27.842 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/jquery-1.12.4.min.js - 200 97163 text/javascript 71.7404ms
+2025-03-15 13:46:27.843 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/about-5.webp - 304 null image/webp 57.1276ms
+2025-03-15 13:46:27.844 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/about-2.webp - 304 null image/webp 8.8406ms
+2025-03-15 13:46:27.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-1.webp - null null
+2025-03-15 13:46:27.849 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-3.webp - null null
+2025-03-15 13:46:27.851 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-2.webp - null null
+2025-03-15 13:46:27.852 +05:00 [INF] The file /assets/img/features-illustration-1.webp was not modified
+2025-03-15 13:46:27.854 +05:00 [INF] The file /assets/img/features-illustration-3.webp was not modified
+2025-03-15 13:46:27.856 +05:00 [INF] The file /assets/img/features-illustration-2.webp was not modified
+2025-03-15 13:46:27.856 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-1.webp - 304 null image/webp 9.4983ms
+2025-03-15 13:46:27.857 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-3.webp - 304 null image/webp 8.7173ms
+2025-03-15 13:46:27.858 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/features-illustration-2.webp - 304 null image/webp 7.4468ms
+2025-03-15 13:46:27.839 +05:00 [INF] The file /assets/img/avatar-5.webp was not modified
+2025-03-15 13:46:27.863 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-1.png - null null
+2025-03-15 13:46:27.865 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/phone-app-screen.webp - null null
+2025-03-15 13:46:27.865 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/avatar-5.webp - 304 null image/webp 75.1429ms
+2025-03-15 13:46:27.867 +05:00 [INF] The file /assets/img/clients/client-1.png was not modified
+2025-03-15 13:46:27.869 +05:00 [INF] The file /assets/img/phone-app-screen.webp was not modified
+2025-03-15 13:46:27.871 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-3.png - null null
+2025-03-15 13:46:27.872 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-1.png - 304 null image/png 9.0319ms
+2025-03-15 13:46:27.873 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/phone-app-screen.webp - 304 null image/webp 7.8899ms
+2025-03-15 13:46:27.876 +05:00 [INF] The file /assets/img/clients/client-3.png was not modified
+2025-03-15 13:46:27.878 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-5.png - null null
+2025-03-15 13:46:27.881 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-4.png - null null
+2025-03-15 13:46:27.882 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-3.png - 304 null image/png 10.4587ms
+2025-03-15 13:46:27.884 +05:00 [INF] The file /assets/img/clients/client-5.png was not modified
+2025-03-15 13:46:27.886 +05:00 [INF] The file /assets/img/clients/client-4.png was not modified
+2025-03-15 13:46:27.888 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-6.png - null null
+2025-03-15 13:46:27.889 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-5.png - 304 null image/png 10.6855ms
+2025-03-15 13:46:27.891 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-4.png - 304 null image/png 9.3886ms
+2025-03-15 13:46:27.894 +05:00 [INF] The file /assets/img/clients/client-6.png was not modified
+2025-03-15 13:46:27.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-8.png - null null
+2025-03-15 13:46:27.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-7.png - null null
+2025-03-15 13:46:27.900 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-6.png - 304 null image/png 11.5422ms
+2025-03-15 13:46:27.902 +05:00 [INF] The file /assets/img/clients/client-8.png was not modified
+2025-03-15 13:46:27.904 +05:00 [INF] The file /assets/img/clients/client-7.png was not modified
+2025-03-15 13:46:27.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-1.jpg - null null
+2025-03-15 13:46:27.908 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-8.png - 304 null image/png 11.0918ms
+2025-03-15 13:46:27.909 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-7.png - 304 null image/png 9.8486ms
+2025-03-15 13:46:27.911 +05:00 [INF] The file /assets/img/testimonials/testimonials-1.jpg was not modified
+2025-03-15 13:46:27.913 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-3.jpg - null null
+2025-03-15 13:46:27.915 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-2.jpg - null null
+2025-03-15 13:46:27.916 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-1.jpg - 304 null image/jpeg 8.9623ms
+2025-03-15 13:46:27.919 +05:00 [INF] The file /assets/img/testimonials/testimonials-3.jpg was not modified
+2025-03-15 13:46:27.921 +05:00 [INF] The file /assets/img/testimonials/testimonials-2.jpg was not modified
+2025-03-15 13:46:27.924 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-4.jpg - null null
+2025-03-15 13:46:27.924 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-3.jpg - 304 null image/jpeg 11.0472ms
+2025-03-15 13:46:27.925 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-2.jpg - 304 null image/jpeg 10.1814ms
+2025-03-15 13:46:27.927 +05:00 [INF] The file /assets/img/testimonials/testimonials-4.jpg was not modified
+2025-03-15 13:46:27.777 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 13:46:27.931 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_vs/browserLink - null null
+2025-03-15 13:46:27.932 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/testimonials/testimonials-4.jpg - 304 null image/jpeg 8.0976ms
+2025-03-15 13:46:27.732 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/avatar-3.webp - null null
+2025-03-15 13:46:27.941 +05:00 [INF] The file /assets/img/avatar-3.webp was not modified
+2025-03-15 13:46:27.862 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-2.png - null null
+2025-03-15 13:46:27.937 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 159.4542ms
+2025-03-15 13:46:27.943 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/avatar-3.webp - 304 null image/webp 210.7461ms
+2025-03-15 13:46:27.947 +05:00 [INF] The file /assets/img/clients/client-2.png was not modified
+2025-03-15 13:46:27.982 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/img/clients/client-2.png - 304 null image/png 119.96ms
+2025-03-15 13:46:28.002 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 - null null
+2025-03-15 13:46:28.004 +05:00 [INF] The file /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2 was not modified
+2025-03-15 13:46:28.005 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 - 304 null font/woff2 3.9915ms
+2025-03-15 13:46:28.054 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.471ms
+2025-03-15 13:46:34.982 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/Account/Login - null null
+2025-03-15 13:46:35.000 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:46:35.002 +05:00 [INF] Executing endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:46:35.019 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller Villa.RealEstate.Controllers.AccountController (Villa.RealEstate).
+2025-03-15 13:46:35.052 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-15 13:46:35.118 +05:00 [INF] Executed ViewResult - view Login executed in 67.336ms.
+2025-03-15 13:46:35.122 +05:00 [INF] Executed action Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate) in 99.5107ms
+2025-03-15 13:46:35.124 +05:00 [INF] Executed endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:46:35.126 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/Account/Login - 200 null text/html; charset=utf-8 144.5011ms
+2025-03-15 13:46:35.196 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - null null
+2025-03-15 13:46:35.202 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:46:35.204 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - 404 0 null 7.0994ms
+2025-03-15 13:46:35.207 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5069/https://fonts.googleapis.com/css2, Response status code: 404
+2025-03-15 13:46:35.211 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_vs/browserLink - null null
+2025-03-15 13:46:35.211 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 13:46:35.223 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 11.3719ms
+2025-03-15 13:46:35.248 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.4449ms
+2025-03-15 13:47:09.719 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/Account/Login - application/x-www-form-urlencoded 242
+2025-03-15 13:47:09.728 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:47:09.729 +05:00 [INF] Executing endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:47:09.748 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Villa.RealEstate.Models.Login) on controller Villa.RealEstate.Controllers.AccountController (Villa.RealEstate).
+2025-03-15 13:47:09.957 +05:00 [INF] Executed DbCommand (75ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 13:47:09.962 +05:00 [INF] Executing ViewResult, running view Login.
+2025-03-15 13:47:09.967 +05:00 [INF] Executed ViewResult - view Login executed in 5.2013ms.
+2025-03-15 13:47:09.970 +05:00 [INF] Executed action Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate) in 219.1575ms
+2025-03-15 13:47:09.972 +05:00 [INF] Executed endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:47:09.974 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/Account/Login - 200 null text/html; charset=utf-8 255.2943ms
+2025-03-15 13:47:10.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - null null
+2025-03-15 13:47:10.027 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:47:10.028 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 13:47:10.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - 404 0 null 19.5806ms
+2025-03-15 13:47:10.030 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_vs/browserLink - null null
+2025-03-15 13:47:10.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 36.7917ms
+2025-03-15 13:47:10.068 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5069/https://fonts.googleapis.com/css2, Response status code: 404
+2025-03-15 13:47:10.088 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.9597ms
+2025-03-15 13:47:15.512 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/Account/Login - application/x-www-form-urlencoded 237
+2025-03-15 13:47:15.518 +05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-03-15 13:47:15.520 +05:00 [INF] Executing endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:47:15.522 +05:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Villa.RealEstate.Models.Login) on controller Villa.RealEstate.Controllers.AccountController (Villa.RealEstate).
+2025-03-15 13:47:15.810 +05:00 [INF] Executed DbCommand (244ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-15 13:47:15.819 +05:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2025-03-15 13:47:15.822 +05:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-03-15 13:47:15.824 +05:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2025-03-15 13:47:16.314 +05:00 [INF] Executed DbCommand (319ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-15 13:47:16.624 +05:00 [INF] Executed DbCommand (269ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-15 13:47:16.635 +05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-15 13:47:16.641 +05:00 [INF] Executing RedirectResult, redirecting to /.
+2025-03-15 13:47:16.643 +05:00 [INF] Executed action Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate) in 1118.4976ms
+2025-03-15 13:47:16.644 +05:00 [INF] Executed endpoint 'Villa.RealEstate.Controllers.AccountController.Login (Villa.RealEstate)'
+2025-03-15 13:47:16.645 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/Account/Login - 302 0 null 1133.0368ms
+2025-03-15 13:47:16.660 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/ - null null
+2025-03-15 13:47:16.671 +05:00 [INF] Executing endpoint 'Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate)'
+2025-03-15 13:47:16.672 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync() on controller Villa.RealEstate.Controllers.HomeController (Villa.RealEstate).
+2025-03-15 13:47:16.674 +05:00 [INF] Logging Information Message
+2025-03-15 13:47:16.674 +05:00 [WRN] Logging Warning Message
+2025-03-15 13:47:16.675 +05:00 [ERR] Logging Error Message
+2025-03-15 13:47:16.676 +05:00 [FTL] Logging Critical Message
+2025-03-15 13:47:16.933 +05:00 [INF] Executed DbCommand (124ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-03-15 13:47:16.938 +05:00 [INF] Executing ViewResult, running view Index.
+2025-03-15 13:47:16.980 +05:00 [INF] Executed ViewResult - view Index executed in 42.2263ms.
+2025-03-15 13:47:16.983 +05:00 [INF] Executed action Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate) in 310.2145ms
+2025-03-15 13:47:16.987 +05:00 [INF] Executed endpoint 'Villa.RealEstate.Controllers.HomeController.IndexAsync (Villa.RealEstate)'
+2025-03-15 13:47:16.994 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/ - 200 null text/html; charset=utf-8 334.1657ms
+2025-03-15 13:47:17.036 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - null null
+2025-03-15 13:47:17.040 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap - 404 0 null 4.3873ms
+2025-03-15 13:47:17.043 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5069/https://fonts.googleapis.com/css2, Response status code: 404
+2025-03-15 13:47:17.047 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 13:47:17.050 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.3698ms
+2025-03-15 13:47:17.062 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_vs/browserLink - null null
+2025-03-15 13:47:17.076 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.2055ms

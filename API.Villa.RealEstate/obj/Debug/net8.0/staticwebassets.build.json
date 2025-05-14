@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "odQQfHIwGXhOL7BR1W4TB3+3O9Xd+UlOq+0x3ce/9/A=",
+  "Source": "API.Villa.RealEstate",
+  "BasePath": "_content/API.Villa.RealEstate",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

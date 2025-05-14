@@ -1,0 +1,407 @@
+﻿@using Villa.RealEstate.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model List<Employee>
+@{
+    if (Model == null)
+    {
+        <div class="alert alert-danger">Model is NULL</div>
+    }
+    else if (!Model.Any())
+    {
+        <div class="alert alert-warning">Model is EMPTY</div>
+    }
+    else
+    {
+        <div class="alert alert-success">Model loaded successfully!</div>
+    }
+}
+
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                        <div class="company-badge mb-4">
+                            <i class="bi bi-gear-fill me-2"></i>
+                            @Localizer["text1"]
+                        </div>
+
+                        <h1 class="mb-4">
+                            @Localizer["text2"]  <br>
+                            @Localizer["text3"] <br>
+                            <span class="accent-text">@Localizer["text4"]</span>
+                        </h1>
+
+                        <p class="mb-4 mb-md-5">
+                            @Localizer["text5"]
+                        </p>
+
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+                        <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
+
+                        <div class="customers-badge">
+                            <div class="customer-avatars">
+                                <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
+                                <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
+                                <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
+                                <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
+                                <img src="assets/img/avatar-5.webp" alt="Customer 5" class="avatar">
+                                <span class="avatar more">12+</span>
+                            </div>
+                            <p class="mb-0 mt-2">@Localizer["text6"]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </section><!-- /Hero Section -->
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4 align-items-center justify-content-between">
+
+                <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+                    <span class="about-meta">@Localizer["About"]</span>
+                    <h2 class="about-title">@Localizer["text7"]</h2>
+                    <p class="about-description">@Localizer["text8"]</p>
+
+                    <div class="row feature-list-wrapper">
+                        <div class="col-md-6">
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check-circle-fill"></i>@Localizer["text9"] </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check-circle-fill"></i> @Localizer["text10"]</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="info-wrapper">
+                        <div class="row gy-4">
+                            <div class="col-lg-5">
+                                <div class="profile d-flex align-items-center gap-3">
+                                    <img src="assets/img/avatar-1.webp" alt="CEO Profile" class="profile-image">
+                                    <div>
+                                        <h4 class="profile-name">Mario Smith</h4>
+                                        <p class="profile-position">CEO &amp; Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="contact-info d-flex align-items-center gap-2">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <div>
+                                        <p class="contact-label">@Localizer["call"]</p>
+                                        <p class="contact-number">+123 456-789</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image-wrapper">
+                        <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                            <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                            <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+                        </div>
+                        <div class="experience-badge floating">
+                            <h3>15+ <span>@Localizer["Years"]</span></h3>
+                            <p>@Localizer["experience"]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- /About Section -->
+    <!-- Features Section -->
+    <!-- /Features Section -->
+    <!-- Features Cards Section -->
+    <!-- /Features Cards Section -->
+    <!-- Features 2 Section -->
+    <!-- /Features 2 Section -->
+    <!-- Call To Action Section -->
+   <!-- /Call To Action Section -->
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      },
+                      "breakpoints": {
+                        "320": {
+                          "slidesPerView": 2,
+                          "spaceBetween": 40
+                        },
+                        "480": {
+                          "slidesPerView": 3,
+                          "spaceBetween": 60
+                        },
+                        "640": {
+                          "slidesPerView": 4,
+                          "spaceBetween": 80
+                        },
+                        "992": {
+                          "slidesPerView": 6,
+                          "spaceBetween": 120
+                        }
+                      }
+                    }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section><!-- /Clients Section -->
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>@Localizer["Testimonials"]</h2>
+            
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var employee in Model)
+                    {
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="testimonial-item">
+                                @if (employee.Image != null && employee.Image.Length > 0)
+                                {
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(employee.Image)" class="testimonial-img" alt="Employee Image" />
+                                }
+                                else
+                                {
+                                    <img src="assets/img/testimonials/default-user.png" class="testimonial-img" alt="Default Image" />
+                                }
+                                <h3>@employee.Name</h3>
+                                <h4>@employee.JobPosition?.Title</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    @employee.Bio
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="text-center">
+                        <p>No employees available.</p>
+                    </div>
+                }
+
+                
+
+            </div>
+
+        </div>
+
+    </section><!-- /Testimonials Section -->
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>@Localizer["Clients"]</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>@Localizer["Projects"]</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>@Localizer["Support"]</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>@Localizer["Workers"]</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Stats Section -->
+    <!-- Services Section -->
+    <!-- /Services Section -->
+    <!-- Pricing Section -->
+    <!-- /Pricing Section -->
+    <!-- Faq Section -->
+    <!-- /Faq Section -->
+    <!-- Call To Action 2 Section -->
+    <!-- /Call To Action 2 Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>@Localizer["Contact"]</h2>
+            <p>@Localizer["text31"]</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-5">
+                    <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+                        <h3>@Localizer["Info"]</h3>
+                        <p>@Localizer["text32"]</p>
+
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="content">
+                                <h4>@Localizer["Location"]</h4>
+                                <p>A108 Adam Street</p>
+                                <p>New York, NY 535022</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon-box">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="content">
+                                <h4>@Localizer["Phone"]</h4>
+                                <p>+1 5589 55488 55</p>
+                                <p>+1 6678 254445 41</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="icon-box">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="content">
+                                <h4>@Localizer["Email"]</h4>
+                                <p>info@example.com</p>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                        <h3>@Localizer["Touch"]</h3>
+                        <p>@Localizer["text41"].</p>
+
+                       
+
+                        <form id="contact-form"
+                              asp-controller="home"
+                              asp-action="SendMessage"
+                              method="post">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="@Localizer["Name"]" required="">
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="@Localizer["you2"]" required="">
+                                </div>
+
+                                <div class="col-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="@Localizer["you3"]" required="">
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="@Localizer["you4"]" required=""></textarea>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    
+
+                                    <button type="submit" class="btn">@Localizer["you5"]</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /Contact Section -->
+
+</main>

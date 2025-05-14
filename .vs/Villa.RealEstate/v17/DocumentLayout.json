@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebProjects\\Villa.RealEstate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\appmiddleware\\useloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\appmiddleware\\useloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\villa.realestate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\villa.realestate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9431BB5-FA5C-448B-9945-C5212A8900BB}|Admin.Villa.RealEstate\\Admin.Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\admin.villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9431BB5-FA5C-448B-9945-C5212A8900BB}|Admin.Villa.RealEstate\\Admin.Villa.RealEstate.csproj|solutionrelative:admin.villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\appfilter\\iefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\appfilter\\iefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\api.villa.realestate\\controllers\\jobpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|solutionrelative:api.villa.realestate\\controllers\\jobpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\api.villa.realestate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|solutionrelative:api.villa.realestate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\api.villa.realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|solutionrelative:api.villa.realestate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\api.villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77CE1537-6839-4DF6-8A13-5642AE7F57DB}|API.Villa.RealEstate\\API.Villa.RealEstate.csproj|solutionrelative:api.villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|d:\\webprojects\\villa.realestate\\villa.realestate\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD64276-11FD-4C91-8025-4E83DCDD2CDC}|Villa.RealEstate\\Villa.RealEstate.csproj|solutionrelative:villa.realestate\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:17:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Villa.RealEstate",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Villa.RealEstate.csproj",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Villa.RealEstate.csproj",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Villa.RealEstate.csproj",
+              "RelativeToolTip": "Villa.RealEstate\\Villa.RealEstate.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T05:26:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEFilterAttribute.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\AppFilter\\IEFilterAttribute.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\AppFilter\\IEFilterAttribute.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\AppFilter\\IEFilterAttribute.cs",
+              "RelativeToolTip": "Villa.RealEstate\\AppFilter\\IEFilterAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T05:25:51.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UseloggingMiddleware.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\AppMiddleware\\UseloggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\AppMiddleware\\UseloggingMiddleware.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\AppMiddleware\\UseloggingMiddleware.cs",
+              "RelativeToolTip": "Villa.RealEstate\\AppMiddleware\\UseloggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T05:25:18.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\TokenService.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Models\\TokenService.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\TokenService.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Models\\TokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:49:36.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Program.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Program.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Program.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAADwv3wAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:46:50.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Admin.Villa.RealEstate\\appsettings.json",
+              "RelativeDocumentMoniker": "Admin.Villa.RealEstate\\appsettings.json",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Admin.Villa.RealEstate\\appsettings.json",
+              "RelativeToolTip": "Admin.Villa.RealEstate\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T05:26:34.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Program.cs",
+              "RelativeDocumentMoniker": "API.Villa.RealEstate\\Program.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Program.cs",
+              "RelativeToolTip": "API.Villa.RealEstate\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:46:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "API.Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "API.Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:46:08.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\appsettings.json",
+              "RelativeDocumentMoniker": "API.Villa.RealEstate\\appsettings.json",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\appsettings.json",
+              "RelativeToolTip": "API.Villa.RealEstate\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T03:45:41.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Villa.RealEstate\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAIwIwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T00:11:15.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:50:27.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobPositionController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Controllers\\JobPositionController.cs",
+              "RelativeDocumentMoniker": "API.Villa.RealEstate\\Controllers\\JobPositionController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\API.Villa.RealEstate\\Controllers\\JobPositionController.cs",
+              "RelativeToolTip": "API.Villa.RealEstate\\Controllers\\JobPositionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:46:23.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwFcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:15:35.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:45:41.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\appsettings.json",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\appsettings.json",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\appsettings.json",
+              "RelativeToolTip": "Villa.RealEstate\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T03:43:37.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppIdentityDbContext.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\AppIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Models\\AppIdentityDbContext.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\AppIdentityDbContext.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Models\\AppIdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:41:53.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Villa.RealEstate\\Models\\Employee.cs",
+              "ToolTip": "D:\\WebProjects\\Villa.RealEstate\\Villa.RealEstate\\Models\\Employee.cs",
+              "RelativeToolTip": "Villa.RealEstate\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:17:33.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

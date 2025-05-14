@@ -1,0 +1,67 @@
+﻿@model Login
+
+
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-7">
+                            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                                
+
+
+
+                                <div class="col-md-8">
+                                    <h4 class="contact-title">Log In</h4>
+                                    <form id="contact-form"
+                                          asp-controller="Account"
+                                          asp-action="Login"
+                                          method="post">
+                                        <div class="row gy-4">
+
+
+                                            <div class="col-12">
+                                                <input type="text"
+                                                       asp-for="Email" class="form-control"
+                                                       placeholder="Enter Email">
+                                            </div>
+
+                                            <div class="col-12">
+                                                <input type="password" class="form-control"
+                                                       asp-for="Password">
+                                            </div>
+
+                                            <div class="col-md-12">
+
+                                                <button type="submit" class="btn">LOGIN</button>
+                                            </div>
+
+
+                                        </div>
+
+                                    </form>
+                                    <p class="form-messege"></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section><!-- /Hero Section -->
+
+
+</main>

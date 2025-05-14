@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Villa.RealEstate\\Villa.RealEstate.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "API.Villa.RealEstate\\API.Villa.RealEstate.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
